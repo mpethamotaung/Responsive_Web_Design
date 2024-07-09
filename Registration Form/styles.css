@@ -2,11 +2,31 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
+    background-color: hsl(240, 30%, 15%);
     color: #f5f6f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem;
+    border-bottom: 3px solid #3b3b4f;
 }
