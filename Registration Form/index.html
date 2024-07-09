@@ -13,16 +13,16 @@
         <form action="https://register-demo.freecodecamp.org" method="POST">
             <fieldset>
                 <label for="first-name">Enter your first name:
-                    <input type="text" id="first-name" required>
+                    <input type="text" name="first-name" id="first-name" required>
                 </label>
                 <label for="last-name">Enter your last name:
-                    <input type="text" id="last-name" required>
+                    <input type="text" name="last-name" id="last-name" required>
                 </label>
                 <label for="email">Enter your email:
-                    <input type="email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                 </label>
                 <label for="new-password">Create a new password:
-                    <input type="password" id="new-password" pattern="[a-z0-5]{8,}" required>
+                    <input type="password" name="password" id="new-password" pattern="[a-z0-5]{8,}" required>
                 </label>
             </fieldset>
             <fieldset>
@@ -37,15 +37,15 @@
             <fieldset>
                 <label for="profile-picture">
                     Upload a profile picture:
-                    <input type="file" id="profile-picture">
+                    <input type="file" name="profile-picture" id="profile-picture">
                 </label>
                 <label for="age">
                     Input your age (years):
-                    <input type="number" id="age" min="13" max="120">
+                    <input type="number" name="age" id="age" min="13" max="120">
                 </label>
                 <label for="referrer">
                     How did you hear about us?
-                    <select name="" id="referrer">
+                    <select id="referrer" name="referrer">
                         <option value="">(select one)</option>
                         <option value="1">freeCodeCamp News</option>
                         <option value="2">freeCodeCamp YouTube Channel</option>
@@ -55,11 +55,11 @@
                 </label>
                 <label for="bio">
                     Provide a bio:
-                    <textarea name="" id="bio" cols="30" rows="3" ></textarea>
+                    <textarea name="bio" id="bio" cols="30" rows="3" placeholder="I like coding on the beach..."></textarea>
                 </label>
             </fieldset>
             <label for="terms-and-conditions">
-                <input type="checkbox" id="terms-and-conditions" required>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions" required>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
             </label>
             
             <button type="submit" value="Submit">Submit</button>
