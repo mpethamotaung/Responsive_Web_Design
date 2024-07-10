@@ -53,7 +53,7 @@ body {
   .inline {
     width: unset;
     margin: 0 0.5em 0 0;
-    vertical-align: middle;
+    vertical-align: middle;  
   }
   
   input[type="submit"] {
