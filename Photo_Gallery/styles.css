@@ -38,3 +38,8 @@ body {
     margin: 0 auto;
     gap: 16px;
   }
+
+.gallery::after {
+    content: "";
+    width: 350px;
+}
