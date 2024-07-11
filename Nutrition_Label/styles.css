@@ -18,9 +18,9 @@ html {
 }
 
 h1 {
-    font-weight: 800;
     text-align: center;
     margin: -4px 0;
+    letter-spacing: 0.15px;
 }
 
 p {
@@ -30,4 +30,8 @@ p {
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0px;
+}
+
+.bold {
+    font-weight: 800;
 }
