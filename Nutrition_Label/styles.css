@@ -75,4 +75,4 @@ p {
     margin: -7px -2px;
 }
 
-.right {justify-content: right;}
+.right {justify-content:flex-end;}
