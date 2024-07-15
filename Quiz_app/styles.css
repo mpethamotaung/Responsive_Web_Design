@@ -30,6 +30,12 @@ nav a {
     text-decoration: none;
 }
 
+nav ul li :hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -77,4 +83,6 @@ form {
 
 footer {
     padding:1.5rem;
+    background-color: #1b1b32;
+    color: white;
 }
