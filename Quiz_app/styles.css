@@ -16,6 +16,10 @@ header {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 nav {
@@ -51,7 +55,10 @@ nav ul li {
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
+
+
 
 h1, h2{
     font-family: Verdana, Tahoma;
@@ -78,7 +85,7 @@ p::before {
 }
 
 form {
-    padding: 1.5rem;
+    padding: 3rem;
 }
 
 footer {
