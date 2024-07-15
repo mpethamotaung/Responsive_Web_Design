@@ -58,7 +58,9 @@ h1 {
     text-align: center;
 }
 
-
+main {
+    padding: 3rem;
+}
 
 h1, h2{
     font-family: Verdana, Tahoma;
@@ -82,10 +84,6 @@ h2 {
 
 p::before {
     content: "Question #"
-}
-
-form {
-    padding: 3rem;
 }
 
 footer {
