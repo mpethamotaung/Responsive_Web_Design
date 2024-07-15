@@ -25,14 +25,26 @@ nav {
     color: white;
 }
 
+nav a {
+    color: #dfdfe2;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
-}
-
-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 h1, h2{
