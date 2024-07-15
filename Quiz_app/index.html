@@ -52,9 +52,29 @@
             </section>
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS QUestions</h2>
+                <div class="formrow">
+                    <div class="question-block"><label for="answer-selection">Can the CSS margin property accept negative values?</label></div>
+                    <div class="answer">
+                        <select name="answer-selection" id="answer-selection" required>
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block"><label for="answer-selection">Do you have any questions:</label></div>
+                    <div class="answer"><textarea name="answer-selection" id="answer-selection" cols="30" rows="10" placeholder="Feedback..."></textarea></div>
+                </div>
             </section>
+            <button type="submit">Send</button>
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <address>
+            <a href="https://freecodecamp.org">freeCodeCamp</a><br>
+            San Fransisco <br>
+            California <br>
+            USA
+        </address>
+    </footer>
 </body>
 </html>

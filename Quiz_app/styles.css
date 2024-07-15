@@ -58,3 +58,11 @@ h2 {
 p::before {
     content: "Question #"
 }
+
+form {
+    padding: 1.5rem;
+}
+
+footer {
+    padding:1.5rem;
+}
