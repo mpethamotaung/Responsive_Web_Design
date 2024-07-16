@@ -73,6 +73,7 @@ h1 {
 
 .question {
     border: none;
+    padding-bottom: 0;
 }
 
 p {
