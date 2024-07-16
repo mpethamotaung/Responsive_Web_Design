@@ -63,6 +63,11 @@ h1 {
     text-align: center;
 }
 
+.answers-list {
+    list-style: none;
+    padding: 0;
+}
+
 .question-block {
     text-align: left;
     display: block;
@@ -147,6 +152,16 @@ h2 {
 
 p::before {
     content: "Question #"
+}
+
+button {
+    display:block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
 }
 
 footer {
