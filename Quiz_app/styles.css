@@ -154,6 +154,15 @@ p::before {
     content: "Question #"
 }
 
+textarea {
+    width: 98%;
+    margin-top: 10px;
+}
+
+select {
+    margin-top: 10px;
+}
+
 button {
     display:block;
     margin: 40px auto;
@@ -165,7 +174,19 @@ button {
 }
 
 footer {
-    padding:1.5rem;
+    padding: 1rem;
     background-color: #1b1b32;
     color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
+address {
+    text-align: center;
+    padding: 10px;
 }
