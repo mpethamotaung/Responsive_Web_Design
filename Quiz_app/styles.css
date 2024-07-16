@@ -63,8 +63,18 @@ h1 {
     text-align: center;
 }
 
+.info {
+    padding: 10px 0 0 10px;
+}
+
 main {
     padding: 3rem;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
 }
 
 h1, h2{
@@ -73,6 +83,8 @@ h1, h2{
 
 h2 {
     border-bottom: 4px solid #dfdfe2;
+    margin-top: 0px;
+    padding-top: 60px;
 }
 
 .sr-only {
