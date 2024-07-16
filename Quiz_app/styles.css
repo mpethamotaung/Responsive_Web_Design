@@ -71,6 +71,10 @@ h1 {
     padding-top: 5px;
 }
 
+.question {
+    border: none;
+}
+
 p {
     margin: 5px;
     padding-left: 15px;
