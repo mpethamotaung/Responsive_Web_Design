@@ -71,6 +71,12 @@ h1 {
     padding-top: 5px;
 }
 
+p {
+    margin: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
 .info {
     padding: 10px 0 0 10px;
 }
