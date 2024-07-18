@@ -13,10 +13,24 @@ body {
     text-align: center;
 }
 
+.hero-sub {
+    background-color: white;
+}
+
+#img-div {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
 .bold {
     font-weight: 800;
 }
 
 #title{
     font-size: 45px;
+}
+
+article {
+    text-align: center;
 }
