@@ -1,6 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .main {
@@ -20,7 +21,8 @@ body {
 #img-div {
     padding: 20px;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 
 .bold {
