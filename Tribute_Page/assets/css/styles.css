@@ -1,10 +1,9 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
 }
 
 #title {
-    font-size: 90px;
+    font-size: 80px;
 }
 
 .hero{
@@ -23,18 +22,29 @@ main {
     text-align: center;
 }
 
-
 .more-info{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
 }
 
 .more-info,ul,li{
     padding: 16px 0;
+    display: list-item;
 }
 
 #img-div{
     background-color: rgb(253, 245, 234);
     text-align: center;
     padding: 20px;
+    display: block;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+p { 
+    text-align: center;
 }
