@@ -1,3 +1,8 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
 .main {
     background-color: rgb(230, 230, 230);
     border-radius: 10px;
@@ -6,4 +11,12 @@
 
 .hero {
     text-align: center;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+#title{
+    font-size: 45px;
 }
