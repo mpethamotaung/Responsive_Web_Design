@@ -36,3 +36,11 @@ body {
 article {
     text-align: center;
 }
+
+.timeline {
+    text-align: center;
+}
+
+.timeline ul li {
+    list-style-type: disc;
+}
