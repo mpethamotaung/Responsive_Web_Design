@@ -1,10 +1,40 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#title {
+    font-size: 90px;
+}
+
+.hero{
+    text-align: center;
+    
+}
+
 main {
     background-color: lightgrey;
     border-radius: 15px;
     padding: 20px;
+    margin: 40px 0;
 }
+
+#headline{
+    text-align: center;
+}
+
 
 .more-info{
     display: flex;
     justify-content: center;
+}
+
+.more-info,ul,li{
+    padding: 16px 0;
+}
+
+#img-div{
+    background-color: rgb(253, 245, 234);
+    text-align: center;
+    padding: 20px;
 }
